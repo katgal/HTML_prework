@@ -1,0 +1,19 @@
+body {
+  background-color: blue;
+}
+
+.text{
+  color: green;
+}
+
+#info {
+  color: purple;
+}
+
+p {
+  color: #964b00;
+}
+
+.block {
+  border: 5px solid black;
+}

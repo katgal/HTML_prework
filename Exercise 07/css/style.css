@@ -1,0 +1,44 @@
+.box1 {
+  width: 500px;
+  height: 100px;
+  border: 2px solid blue;
+  background-color: #d2d2d2;
+  float:left;
+}
+
+.box2 {
+  width: 500px;
+  height: 100px;
+  border: 2px dashed green;
+  background-color: orange;
+  float: right;
+}
+
+/*dodatkowy div z opcją clear */
+#clear {
+  clear: both;
+}
+
+#text {
+  display: inline-block;
+  width: 300px;
+  height:auto;
+  border: 4px dotted grey;
+  font-style: normal;
+  font-family: Verdana, sans-serif;
+  font-size: 12px;
+  font-weight: lighter;
+  color: red;
+}
+
+#text2 {
+  display: inline-block;
+  width: 300px;
+  height:auto;
+  border: 4px dotted grey;
+  font-style: normal;
+  font-family: Verdana, sans-serif;
+  font-size: 12px;
+  font-weight: lighter;
+  color: purple;
+}

@@ -1,0 +1,19 @@
+/*Po dodaniu 3 pierwszych styli, zmienił się tylko kolor czcianki na czerwony.
+Po dodaniu border-style: solid zmiania się rózwnież kolor ramki,
+ ale element a nie posiada szerokości 500px.
+ Link jest elementem liniowym.*/
+a {
+  color: red;
+  border-color: red;
+  width: 500px;
+  border-style: solid;
+}
+/*Po dodaniu pierwszych trzech parametrów zmiania się tylko kolor czcionki,
+ ale po dodaniu border-style: dashed ewidentnie widać,
+że p uwzględnia wszystkie poniższe style*/
+p {
+  color: red;
+  border-color: red;
+  width: 500px;
+  border-style: dashed;
+}

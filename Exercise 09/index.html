@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formularze</title>
+    <meta name="description" content="Jak tworzyć formularze w html">
+    <meta name="keywords" content="formularz, html">
+
+</head>
+<body>
+  <p>1.</p>
+
+  <form>
+      <label><strong>Your Name:</strong></label><br>
+      <input type="text" name="username" placeholder="Your name" size="67">
+      <br>
+      <label><strong>Your e-mail address:</strong></label><br>
+      <input type="text" name="e-mail" placeholder="Your e-mail address" size="67"><br>
+      <label><strong>Your message:</strong></label>
+      <br>
+      <textarea cols='50' rows='10' placeholder="Please describe your question or comment"></textarea>
+        <p>
+          <input type="submit" value="Send">
+        </p>
+  </form>
+  <br>
+
+<p>2.</p>
+
+<form>
+<fieldset>
+  <legend><h2>Run your intelligent robo-car</h2></legend>
+  <h3>Select country:</h3>
+  <label>
+    <input type="checkbox" value="Poland" checked> Poland
+    <input type="checkbox" value="US"> US
+    <input type="checkbox" value="San Marino"> San Marino
+    </label>
+  <h3>Select car:</h3>
+  <label>
+    <input type="radio" name="car_type" value="BMW" checked> BMW
+  </label>
+  <label>
+    <input type="radio" name="car_type" value="Jaguar"> Jaguar
+  </label>
+  <h3>When?</h3>
+  <label>Date</label>
+    <input type="date" name="calendar" placeholder="rrrr-mm-dd">
+  <h3>Start engine.</h3>
+  <label>Enter password*:
+    <input type="password" name="password" placeholder="****">
+  </label>
+  <br><br><br>
+    <input type="submit" value="RUN YOUR CAR">
+</fieldset>
+</form>
+
+</body>
+</html>
